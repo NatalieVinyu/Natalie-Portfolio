@@ -1,8 +1,55 @@
-h1, h3{
-    font-family: 'Inter', sans-serif;
-    font-weight: normal;
+:root {
+    --background-primary: #e8deff;
+    --light-purple: #d8c7ff;
+    --dark-purple: #7c40ff;
+    --primary-font: 'Jua', sans-serif;
+    --secondary-font: 'Arvo', serif;
+
+}
+
+body{
+    background: var(--background-primary);
+}
+
+header {
+    background: var(--light-purple) ;
 }
 
 h2 {
-    font-family: 'Jua', sans-serif;
+    font-family: var(--secondary-font);
+    font-weight: normal;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 120px;
+    font-family: var(--primary-font);
+}
+
+p, h1 {
+    margin: 0 auto;
+}
+
+.hero {
+    margin: 150px;
+    text-align: center;
+}
+
+.hero p {
+    font-family: var(--secondary-font);
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.btn-branding {
+    background: var(--dark-purple);
+    border-radius: 4px;
+    color: black;
+    line-height: 20px;
+    padding: 12px 20px;
+}
+
+.btn-branding:hover {
+    background: var(--dark-purple);
+    color: white;
 }
