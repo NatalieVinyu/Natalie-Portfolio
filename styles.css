@@ -47,6 +47,14 @@ p, h1 {
         font-size: 25px;
     }
 
+    .myPic {
+        width: 200px;
+    }
+
+    .logo {
+        width: 140px;
+    }
+
 }
 
 
