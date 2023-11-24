@@ -16,6 +16,26 @@ header {
     background: var(--light-purple) ;
 }
 
+footer {
+    margin: 20px;
+}
+
+footer p {
+    padding: 20px;
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    background: var(--light-purple);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+footer .social-links svg {
+    width: 20px;
+    height: 20px;
+}
+
 h2 {
     font-weight: normal;
     font-size: 20px;
