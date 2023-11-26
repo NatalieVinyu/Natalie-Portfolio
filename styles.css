@@ -26,10 +26,12 @@ footer p {
 
 footer .social-links a {
     margin: 0 20px;
+    color: var(--dark-purple);
     background: var(--light-purple);
     padding: 15px;
     border-radius: 50%;
 }
+
 
 footer .social-links svg {
     width: 20px;
